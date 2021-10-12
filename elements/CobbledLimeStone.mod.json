@@ -2,10 +2,10 @@
   "_fv": 18,
   "_type": "block",
   "definition": {
-    "texture": "lime_stone",
+    "texture": "cobbled_lime_stone",
     "textureTop": "",
     "textureLeft": "",
-    "textureFront": "lime_stone",
+    "textureFront": "",
     "textureRight": "",
     "textureBack": "",
     "renderType": 11,
@@ -32,7 +32,7 @@
         "subtract": false
       }
     ],
-    "name": "Lime Stone",
+    "name": "Cobbled Lime Stone",
     "specialInfo": [],
     "hardness": 4.0,
     "resistance": 10.0,
@@ -76,7 +76,7 @@
     },
     "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 1,
+    "breakHarvestLevel": 2,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"
@@ -101,27 +101,16 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "spawnWorldTypes": [
-      "Surface"
-    ],
+    "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [
       {
         "value": "Blocks.STONE"
-      },
-      {
-        "value": "Blocks.STONE#1"
-      },
-      {
-        "value": "Blocks.STONE#5"
-      },
-      {
-        "value": "Blocks.STONE#3"
       }
     ],
     "frequencyPerChunks": 10,
     "frequencyOnChunk": 16,
     "minGenerateHeight": 0,
-    "maxGenerateHeight": 50
+    "maxGenerateHeight": 64
   }
 }

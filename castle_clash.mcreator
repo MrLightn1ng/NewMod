@@ -20,6 +20,16 @@
       "ids": {},
       "registry_name": "castle_clash",
       "path": "~/Creative Tabs"
+    },
+    {
+      "name": "CobbledLimeStone",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cobbled_lime_stone",
+      "path": "~/Blocks"
     }
   ],
   "variable_elements": [],
@@ -27,7 +37,8 @@
   "language_map": {
     "en_us": {
       "block.castle_clash.lime_stone": "Lime Stone",
-      "itemGroup.tabcastle_clash": "Castle Clash"
+      "itemGroup.tabcastle_clash": "Castle Clash",
+      "block.castle_clash.cobbled_lime_stone": "Cobbled Lime Stone"
     }
   },
   "foldersRoot": {
